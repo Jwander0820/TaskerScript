@@ -1,0 +1,41 @@
+<TaskerData sr="" dvi="1" tv="6.1.32">
+	<Profile sr="prof103" ve="2">
+		<cdate>1690042665970</cdate>
+		<clp>true</clp>
+		<edate>1690042680458</edate>
+		<flags>8</flags>
+		<id>103</id>
+		<limit>true</limit>
+		<mid0>16</mid0>
+		<mid1>20</mid1>
+		<nme>YouTube 自動旋轉</nme>
+		<pri>6</pri>
+		<App sr="con0" ve="2">
+			<cls0>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls0>
+			<flags>2</flags>
+			<label0>YouTube</label0>
+			<pkg0>com.google.android.youtube</pkg0>
+		</App>
+	</Profile>
+	<Task sr="task16">
+		<cdate>1629818656402</cdate>
+		<edate>1690040747785</edate>
+		<id>16</id>
+		<nme>開啟自動旋轉畫面</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>822</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task20">
+		<cdate>1629820496283</cdate>
+		<edate>1690040746666</edate>
+		<id>20</id>
+		<nme>關閉自動旋轉畫面</nme>
+		<Action sr="act0" ve="7">
+			<code>822</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
