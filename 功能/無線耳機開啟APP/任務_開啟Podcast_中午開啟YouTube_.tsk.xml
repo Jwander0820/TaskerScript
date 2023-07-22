@@ -1,0 +1,61 @@
+<TaskerData sr="" dvi="1" tv="6.1.32">
+	<Task sr="task105">
+		<cdate>1687907277191</cdate>
+		<edate>1690044102403</edate>
+		<id>105</id>
+		<nme>開啟Podcast(中午開啟YouTube)</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>806</code>
+			<Int sr="arg0" val="500"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>13.00</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIME</lhs>
+					<op>7</op>
+					<rhs>12.00</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</appClass>
+				<appPkg>com.google.android.youtube</appPkg>
+				<label>YouTube</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.google.android.apps.podcasts.PodcastsActivity</appClass>
+				<appPkg>com.google.android.apps.podcasts</appPkg>
+				<label>Podcast</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>com.google.android.apps.podcasts.PodcastsActivity</cls>
+			<pkg>com.google.android.apps.podcasts</pkg>
+		</Img>
+	</Task>
+</TaskerData>
