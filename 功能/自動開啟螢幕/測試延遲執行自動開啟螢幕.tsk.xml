@@ -1,14 +1,14 @@
 <TaskerData sr="" dvi="1" tv="6.2.22">
-	<Task sr="task3">
+	<Task sr="task8">
 		<cdate>1712213969698</cdate>
-		<edate>1712217862967</edate>
-		<id>3</id>
+		<edate>1712221603892</edate>
+		<id>8</id>
 		<nme>測試延遲執行自動開啟螢幕</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="3"/>
+			<Int sr="arg1" val="30"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -32,7 +32,7 @@
 		<Action sr="act2" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg1" val="2"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
