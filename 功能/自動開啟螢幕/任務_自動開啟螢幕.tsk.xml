@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="6.1.32">
+<TaskerData sr="" dvi="1" tv="6.2.22">
 	<Task sr="task102">
 		<cdate>1690041474323</cdate>
-		<edate>1690042316957</edate>
+		<edate>1712214866393</edate>
 		<id>102</id>
 		<nme>自動開啟螢幕</nme>
 		<pri>100</pri>
@@ -152,6 +152,15 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>126</code>
+			<label>回傳鎖定狀態</label>
+			<Str sr="arg0" ve="3">%aidevicelocked</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_communication_phonelink_lock</nme>
