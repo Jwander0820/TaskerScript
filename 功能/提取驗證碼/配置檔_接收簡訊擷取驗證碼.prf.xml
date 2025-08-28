@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="6.1.32">
+<TaskerData sr="" dvi="1" tv="6.5.11">
 	<Profile sr="prof73" ve="2">
 		<cdate>1688459587021</cdate>
 		<clp>true</clp>
-		<edate>1690108080070</edate>
+		<edate>1705025772244</edate>
 		<flags>8</flags>
 		<id>73</id>
 		<mid0>74</mid0>
@@ -19,7 +19,7 @@
 	</Profile>
 	<Task sr="task74">
 		<cdate>1688459603877</cdate>
-		<edate>1690611662818</edate>
+		<edate>1735033632236</edate>
 		<id>74</id>
 		<nme>閃光彈出簡訊內容</nme>
 		<pri>6</pri>

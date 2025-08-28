@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="6.1.32">
+<TaskerData sr="" dvi="1" tv="6.5.11">
 	<Task sr="task86">
 		<cdate>1688693667197</cdate>
-		<edate>1690611841374</edate>
+		<edate>1756360303357</edate>
 		<id>86</id>
 		<nme>提取驗證碼</nme>
 		<pri>100</pri>
@@ -17,6 +17,7 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%tmp</lhs>
@@ -26,6 +27,122 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TmpValue</lhs>
+					<op>4</op>
+					<rhs>聯邦</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%VerifyCode2</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">%ColorText</Str>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">content://net.dinglisch.android.taskerm.iconprovider//app/com.samsung.android.messaging</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">%ColorUIPurple</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%VerifyCode2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%VerifyCode1</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">%ColorText</Str>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">content://net.dinglisch.android.taskerm.iconprovider//app/com.samsung.android.messaging</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">%ColorUIPurple</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%VerifyCode1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%VerifyCode1</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">%ColorText</Str>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">content://net.dinglisch.android.taskerm.iconprovider//app/com.samsung.android.messaging</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">%ColorUIPurple</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%VerifyCode1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<label>替換掉干擾字元</label>
+			<Str sr="arg0" ve="3">%tmp</Str>
+			<Str sr="arg1" ve="3">TWD\s*\d+(\.\d+)?</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%tmp</Str>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%tmp</Str>
@@ -45,11 +162,14 @@
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>598</code>
 			<label>替換掉干擾字元</label>
 			<Str sr="arg0" ve="3">%tmp</Str>
-			<Str sr="arg1" ve="3">TWD\s*\d+(\.\d+)?</Str>
+			<Str sr="arg1" ve="3">金額\s*\d+(\.\d+)?</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -57,7 +177,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>598</code>
 			<label>替換掉干擾字元</label>
 			<Str sr="arg0" ve="3">%tmp</Str>
@@ -69,7 +189,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%tmp</Str>
 			<Str sr="arg1" ve="3">[\d]{6}|[\d]{5}|[\d]{4}</Str>
@@ -80,8 +200,9 @@
 			<Int sr="arg6" val="0"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%VerifyCode1</lhs>
@@ -90,14 +211,48 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%TmpValue</lhs>
+					<op>4</op>
+					<rhs>聯邦</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TmpValue</lhs>
+					<op>4</op>
+					<rhs>華南</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%TmpValue</lhs>
+					<op>4</op>
+					<rhs>永豐</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%TmpValue</Str>
+			<Str sr="arg1" ve="3">(?&lt;=網頁識別碼[ ：]?)\s*([A-Z0-9]{3,12})</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%UBVerifyCode</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">%VerifyCode1</Str>
+			<Str sr="arg0" ve="3">%UBVerifyCode1</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg10" ve="3">%ColorText</Str>
 			<Int sr="arg11" val="0"/>
 			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
+			<Str sr="arg13" ve="3">Bottom,0,100</Str>
 			<Int sr="arg14" val="0"/>
 			<Str sr="arg15" ve="3"/>
 			<Int sr="arg2" val="1"/>
@@ -108,18 +263,6 @@
 			<Str sr="arg7" ve="3"/>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">%VerifyCode1</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>38</code>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_action_assignment</nme>
